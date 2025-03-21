@@ -1,0 +1,18 @@
+@font-face {
+  font-family: vazir;
+  font-weight: 400;
+  font-style: normal;
+  src: url(/Assets/Fonts/fonts/webfonts/Vazirmatn-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: 700;
+  font-style: normal;
+  src: url(/Assets/Fonts/fonts/webfonts/Vazirmatn-Medium.woff2) format("woff2");
+}
+
+body,
+button {
+  font-family: vazir;
+}
