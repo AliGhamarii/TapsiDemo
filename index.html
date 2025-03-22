@@ -13,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="main-header">
@@ -34,7 +35,7 @@
         </ul>
       </nav>
     </header>
-    <!-- new component! -->
+
     <div class="main-hero">
       <picture>
         <source
@@ -81,7 +82,11 @@
         </div>
       </div>
     </div>
-    <section class="services container">
+    <section
+      class="services container"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <h2>سرویس های تپسی</h2>
       <div class="services__tabs">
         <div class="services__tab">
@@ -217,7 +222,11 @@
       </div>
     </section>
 
-    <section class="feature container block">
+    <section
+      class="feature container block"
+      data-aos="zoom-out-right"
+      data-aos-duration="2000"
+    >
       <div class="feature__image">
         <img src="/Assets/Images/i-mac.webp" alt="" />
       </div>
@@ -233,7 +242,11 @@
       </div>
     </section>
 
-    <section class="feature container block">
+    <section
+      class="feature container block"
+      data-aos="zoom-out-left"
+      data-aos-duration="2000"
+    >
       <div class="feature__image charge">
         <img src="/Assets/Images/macbook 1.png" alt="" />
       </div>
@@ -249,7 +262,11 @@
       </div>
     </section>
 
-    <section class="container block">
+    <section
+      class="container block"
+      data-aos="zoom-in-up"
+      data-aos-duration="2000"
+    >
       <h2 class="block__heading">تعرفه های ویژه مشتریان</h2>
       <section class="block-plan container block">
         <!-- PlanA -->
@@ -321,7 +338,11 @@
       </section>
     </section>
 
-    <section class="container block">
+    <section
+      class="container block"
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
+    >
       <h2>تماس با ما</h2>
       <section class="contact-us container block">
         <div class="contact-us__social">
@@ -437,5 +458,9 @@
 
     <script src="/js/main.js"></script>
     <script src="/js/services.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
