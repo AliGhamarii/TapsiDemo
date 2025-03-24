@@ -955,3 +955,55 @@ textarea {
 .icons__left i {
   margin-left: 1rem;
 }
+
+/* avatars section */
+.avatars-group {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.avatars {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  margin-left: -15px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.avatars:hover,
+.hidden-avatars:hover {
+  transform: translate(10px);
+}
+
+.avatars img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 3px solid #fff;
+}
+
+.hidden-avatars {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.avatars__suggest {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  display: inline-block;
+}
