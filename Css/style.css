@@ -250,7 +250,9 @@ h3 {
 /* Feature */
 .feature {
   display: grid;
-  gap: 4rem 0;
+  justify-content: center;
+  padding: 2rem;
+  gap: 0rem 10rem;
 }
 
 .feature .feature__title {
@@ -277,7 +279,7 @@ h3 {
 }
 
 .feature__image.charge {
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1024px) {
@@ -712,11 +714,16 @@ textarea {
   width: 240px;
   display: flex;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 
 .intro-btn__passenger span {
   width: 20px;
   margin-left: 1.2rem;
+}
+
+.intro-btn__passenger:hover {
+  cursor: pointer;
 }
 
 .passenger--dark {
@@ -860,7 +867,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .block {
-    padding: 10rem 2rem;
+    padding: 2.5rem 2rem;
   }
 }
 
